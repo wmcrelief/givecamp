@@ -22,9 +22,9 @@
  */
 
 .carousel-inner .item {
-    height: 300px;
+    height: 300px!important;
 }
 
 #carousel-home p {
-    display: none;
+    display: none!important;
 }
