@@ -21,10 +21,17 @@
  * This version of the Make child theme is only compatible with Make 1.6.0 and above.
  */
 
-header {
-    -webkit-box-shadow: 6px 4px 22px 0px rgba(0,0,0,0.7);
-    -moz-box-shadow: 6px 4px 22px 0px rgba(0,0,0,0.7);
-    box-shadow: 6px 4px 22px 0px rgba(0,0,0,0.7);
+.header-bar .search-form {
+    float: right;
+    padding: 10px 0;
+}
+
+.header-social-links {
+    margin: 0;
+}
+
+.header-social-links li.make-social-icon a {
+    padding: 0;
 }
 
 .container {
@@ -102,6 +109,7 @@ span.site-description {
     background-color: #fff;
     border: 1px solid #ddd;
     border-radius: 4px;
+    min-height: 400px;
     -webkit-transition: border .2s ease-in-out;
     -o-transition: border .2s ease-in-out;
     transition: border .2s ease-in-out;
