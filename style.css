@@ -72,7 +72,7 @@ span.site-description {
     margin-bottom: 0;
 }
 
-.site-content {
+.site-content .container:first-of-type {
     padding-top: 10px;
 }
 
