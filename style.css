@@ -26,5 +26,9 @@
 }
 
 #carousel-home p {
+    margin-bottom: 0;
+}
+
+#carousel-home p br {
     display: none!important;
 }
