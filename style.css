@@ -21,7 +21,7 @@
  * This version of the Make child theme is only compatible with Make 1.6.0 and above.
  */
 
-#site-header.site-header {
+header {
     -webkit-box-shadow: 6px 4px 22px 0px rgba(0,0,0,0.7);
     -moz-box-shadow: 6px 4px 22px 0px rgba(0,0,0,0.7);
     box-shadow: 6px 4px 22px 0px rgba(0,0,0,0.7);
@@ -72,15 +72,19 @@ span.site-description {
     margin-bottom: 0;
 }
 
-#builder-section-1478374788721 .builder-text-content {
-    float: left;
-    position: relative;
-    top: -100px;
-    right: -128px;
-    color: #FFFFFF;
-    text-shadow: 2px 2px 2px rgba(81, 81, 81, 0.82);
-    font-size: 1.5em;
+.site-content {
+    padding-top: 10px;
 }
+
+/*#builder-section-1478374788721 .builder-text-content {*/
+    /*float: left;*/
+    /*position: relative;*/
+    /*top: -100px;*/
+    /*right: -128px;*/
+    /*color: #FFFFFF;*/
+    /*text-shadow: 2px 2px 2px rgba(81, 81, 81, 0.82);*/
+    /*font-size: 1.5em;*/
+/*}*/
 
 .builder-text-content p {
     margin-bottom: 0;
