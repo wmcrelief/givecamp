@@ -24,3 +24,7 @@
 .carousel.slide, .margin-bottom {
     margin-bottom: 20px;
 }
+
+.row p {
+    margin-bottom: 0;
+}
