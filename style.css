@@ -23,7 +23,7 @@
 
 .header-bar .search-form {
     float: right;
-    padding: 10px 0;
+    padding: 10px 5px;
 }
 
 .header-social-links {
@@ -36,7 +36,7 @@
     padding: 0;
 }
 
-.container {
+.container, .social-links {
     padding: 0;
 }
 
@@ -53,13 +53,13 @@ a.custom-logo-link {
     background-color: #fff;
 }
 
-.site-header-main .site-branding {
-    max-width: 40%;
-}
+/*.site-header-main .site-branding {*/
+    /*max-width: 40%;*/
+/*}*/
 
-.site-header-main .site-navigation {
-    max-width: 60%;
-}
+/*.site-header-main .site-navigation {*/
+    /*max-width: 60%;*/
+/*}*/
 
 .site-description {
     text-align: center;
