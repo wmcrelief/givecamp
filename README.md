@@ -1,0 +1,1 @@
+# WMCR Child Theme
