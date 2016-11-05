@@ -21,11 +21,6 @@
  * This version of the Make child theme is only compatible with Make 1.6.0 and above.
  */
 
-
-#carousel-home p {
-    margin-bottom: 0;
-}
-
-#carousel-home p br {
-    display: none!important;
+.carousel.slide {
+    margin-bottom: 20px;
 }
