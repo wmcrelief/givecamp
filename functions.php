@@ -21,3 +21,12 @@ define( 'TTFMAKE_CHILD_VERSION', '1.1.0' );
 /**
  * Add your custom theme functions here.
  */
+
+
+function wpb_adding_styles() {
+	wp_enqueue_style( 'wmcr_bootstrap_css', 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' );
+	wp_enqueue_style( 'wmcr_bootstrap_css_theme', 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css' );
+	wp_enqueue_script( 'wmcr_bootstrap_js', 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js', array( 'jquery' ) );
+}
+ 
+add_action( 'wp_enqueue_scripts', 'wpb_adding_styles' );
