@@ -21,7 +21,7 @@
  * This version of the Make child theme is only compatible with Make 1.6.0 and above.
  */
 
-header#site-header {
+#site-header.site-header {
     -webkit-box-shadow: 6px 4px 22px 0px rgba(0,0,0,0.7);
     -moz-box-shadow: 6px 4px 22px 0px rgba(0,0,0,0.7);
     box-shadow: 6px 4px 22px 0px rgba(0,0,0,0.7);
