@@ -28,6 +28,7 @@
 
 .header-social-links {
     margin: 0;
+    float: right;
 }
 
 .header-social-links li.make-social-icon a {
