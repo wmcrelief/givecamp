@@ -24,3 +24,7 @@
 .carousel-inner .item {
     height: 300px;
 }
+
+#carousel-home p {
+    display: none;
+}
