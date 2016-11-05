@@ -72,7 +72,7 @@ span.site-description {
     margin-bottom: 0;
 }
 
-.builder-text-content {
+#builder-section-1478374788721 .builder-text-content {
     float: left;
     position: relative;
     top: -100px;
@@ -84,4 +84,8 @@ span.site-description {
 
 .builder-text-content p {
     margin-bottom: 0;
+}
+
+.builder-section {
+    margin-bottom: 10px;
 }
