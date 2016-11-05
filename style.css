@@ -21,6 +21,6 @@
  * This version of the Make child theme is only compatible with Make 1.6.0 and above.
  */
 
-.carousel-inner img {
+.carousel-inner .item {
     height: 300px;
 }
