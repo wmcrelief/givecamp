@@ -21,6 +21,27 @@
  * This version of the Make child theme is only compatible with Make 1.6.0 and above.
  */
 
+.container {
+    padding: 0;
+}
+
+.site-header-main {
+    padding: 20px 0 10px;
+    background-color: #fff;
+}
+
+.site-header-main .site-branding {
+    max-width: 40%;
+}
+
+.site-header-main .site-navigation {
+    max-width: 60%;
+}
+
+.site-description {
+    text-align: center;
+}
+
 .carousel.slide, .margin-bottom {
     margin-bottom: 20px;
 }
