@@ -25,6 +25,14 @@
     padding: 0;
 }
 
+a.custom-logo-link {
+    margin: 0;
+}
+
+.site-branding h1.site-title {
+    margin-top: 0;
+}
+
 .site-content .container:first-child {
     margin: 0 auto;
 }
@@ -44,6 +52,10 @@
 
 .site-description {
     text-align: center;
+}
+
+span .site-description {
+
 }
 
 .carousel.slide, .margin-bottom {
