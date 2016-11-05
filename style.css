@@ -25,6 +25,10 @@
     padding: 0;
 }
 
+.site-content .container:first-child {
+    margin: 0;
+}
+
 .site-header-main {
     padding: 20px 0 10px;
     background-color: #fff;
