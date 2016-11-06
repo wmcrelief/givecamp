@@ -35,6 +35,10 @@ a:hover {
     color: #333333;
 }
 
+a.btn {
+    margin-top: 10px;
+}
+
 .btn-success {
     background-image: -webkit-linear-gradient(top,#95b98d 0,#679a94 100%);
     background-image: -o-linear-gradient(top,#95b98d 0,#679a94 100%);
