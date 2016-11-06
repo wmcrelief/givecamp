@@ -55,17 +55,9 @@ a.custom-logo-link {
 }
 
 .site-header-main {
-    padding: 20px 0 10px;
+    padding: 5px 0 5px;
     background-color: #fff;
 }
-
-/*.site-header-main .site-branding {*/
-    /*max-width: 40%;*/
-/*}*/
-
-/*.site-header-main .site-navigation {*/
-    /*max-width: 60%;*/
-/*}*/
 
 .site-description {
     text-align: center;
@@ -90,6 +82,10 @@ span.site-description {
 
 .site-content .container:first-of-type {
     padding-top: 10px;
+}
+
+.page-id-19 .site-content .container:first-of-type {
+    padding-top: 0;
 }
 
 .builder-text-content p {
