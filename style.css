@@ -32,6 +32,11 @@ hr {
     border-color: #679a94;
 }
 
+.btn-primary:focus, .btn-primary:hover {
+    background: #679a94;
+    border-color: #95b98d;
+}
+
 .header-bar .search-form {
     float: right;
     padding: 10px 5px;
