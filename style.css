@@ -245,7 +245,7 @@ img.custom-logo {
     color: #333333;
 }
 
-.blog.blog-view #site-content:before {
+.blog.view-blog #site-content:before {
     content: "WMCR News";
     position: absolute;
     display: block;
