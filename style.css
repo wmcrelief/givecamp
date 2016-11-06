@@ -181,3 +181,6 @@ img.custom-logo {
     height: auto;
 }
 
+.thumbnail.square-height {
+    height: 165px;
+}
