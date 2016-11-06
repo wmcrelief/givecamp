@@ -220,4 +220,9 @@ img.custom-logo {
 .entry-title{
     font-size: 2.4em;
 }
+
+.post {
+    border-bottom: 0;
+    margin: 6.6rem 0 0;
+}
 /* End Posts Page */
