@@ -28,11 +28,27 @@ hr {
 }
 
 .btn-success {
-    background: #95b98d;
+    background-image: -webkit-linear-gradient(top,#95b98d 0,#679a94 100%);
+    background-image: -o-linear-gradient(top,#95b98d 0,#679a94 100%);
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#95b98d),to(#679a94));
+    background-image: linear-gradient(to bottom,#95b98d 0,#679a94 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5cb85c', endColorstr='#ff419641', GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+    background-repeat: repeat-x;
+    border-color: #679a94;
+}
 }
 
+
+
 .btn-success:focus, .btn-success:hover {
-    background: #679a94;
+    background-image: -webkit-linear-gradient(top,#679a94 0,#95b98d 100%);
+    background-image: -o-linear-gradient(top,#679a94 0,#95b98d 100%);
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#679a94),to(#95b98d));
+    background-image: linear-gradient(to bottom,#679a94 0,#95b98d 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5cb85c', endColorstr='#ff419641', GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+    background-repeat: repeat-x;
     border-color: #95b98d;
 }
 
