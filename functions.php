@@ -30,3 +30,6 @@ function wpb_adding_styles() {
 }
  
 add_action( 'wp_enqueue_scripts', 'wpb_adding_styles' );
+
+// Enable shortcodes in text widgets
+add_filter('widget_text','do_shortcode');

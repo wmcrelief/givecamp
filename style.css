@@ -42,6 +42,10 @@ a.btn {
     padding-bottom: 10px;
 }
 
+.home .entry-title {
+	display: none;
+}
+
 .btn-success {
     background-image: -webkit-linear-gradient(top,#95b98d 0,#679a94 100%);
     background-image: -o-linear-gradient(top,#95b98d 0,#679a94 100%);
@@ -56,6 +60,10 @@ a.btn {
 .btn-success:focus, .btn-success:hover {
     background-color: #679a94;
     border-color: #95b98d;
+}
+
+.give-form-wrap input {
+  border: 1px solid #ccc;
 }
 
 .header-bar .search-form {
@@ -115,6 +123,10 @@ span.site-description {
     padding-top: 0;
 }
 
+#builder-section-1478374788721 .builder-text-column {
+  border: 0 !important;
+}
+
 .page-id-6 .site-content .container:first-of-type {
     padding-top: 10px;
 }
@@ -146,7 +158,7 @@ span.site-description {
 }
 
 #builder-section-1478374788721 .builder-text-column {
-    min-height: 700px;
+    min-height: 300px;
 }
 
 #builder-section-1478391300293 .builder-text-column > img,
@@ -249,6 +261,7 @@ img.custom-logo {
     padding-top: 70px;
 }
 
+/*
 .blog.view-blog #site-content:before {
     content: "WMCR News";
     position: absolute;
@@ -264,4 +277,5 @@ img.custom-logo {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     border-bottom: 1px solid #333333;
 }
+*/
 /* End Posts Page */
