@@ -189,3 +189,7 @@ img.custom-logo {
 .col-sm-2 {
     width: 15.8%
 }
+
+#site-main .builder-section .builder-banner-slide {
+    padding-bottom: 400px;
+}
