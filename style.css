@@ -121,11 +121,19 @@ span.site-description {
     background-color: #fff;
     border: 1px solid #ddd;
     border-radius: 4px;
-    min-height: 400px;
     -webkit-transition: border .2s ease-in-out;
     -o-transition: border .2s ease-in-out;
     transition: border .2s ease-in-out;
 }
+
+#builder-section-1478391300293 .builder-text-column {
+    min-height: 270px;
+}
+
+#builder-section-1478374788721 .builder-text-column {
+    min-height: 500px;
+}
+
 #builder-section-1478391300293 .builder-text-column > img,
 #builder-section-1478374788721 .builder-text-column > img {
     display: block;
