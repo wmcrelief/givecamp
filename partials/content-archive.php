@@ -45,3 +45,4 @@ $entry_footer = trim( ob_get_clean() );
 	</footer>
 	<?php endif; ?>
 </article>
+<hr>
