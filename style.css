@@ -219,10 +219,21 @@ img.custom-logo {
 /* Posts Page */
 .entry-title{
     font-size: 2.4em;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
 }
 
 .post {
     border-bottom: 0;
     margin: 6.6rem 0 0;
+}
+
+#sidebar-right {
+    margin-top: 15px;
+}
+
+#sidebar-right .widget-title {
+    font-size: 2rem;
+    border-bottom: 1px solid #333;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
 }
 /* End Posts Page */
