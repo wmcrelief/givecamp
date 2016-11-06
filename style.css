@@ -37,6 +37,8 @@ a:hover {
 
 a.btn {
     margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .btn-success {
@@ -100,9 +102,9 @@ span.site-description {
     margin-bottom: 20px;
 }
 
-.row p {
-    margin-bottom: 0;
-}
+/*.row p {*/
+    /*margin-bottom: 0;*/
+/*}*/
 
 .builder-text-image {
     margin-bottom: 0;
