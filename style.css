@@ -27,8 +27,9 @@ hr {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
 
-.primary {
+.btn-primary {
     background: #95b98d;
+    border-color: #679a94;
 }
 
 .header-bar .search-form {
