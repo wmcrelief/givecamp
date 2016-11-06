@@ -182,5 +182,11 @@ img.custom-logo {
 }
 
 .thumbnail.square-height {
-    height: 165px;
+    margin: 3px;
+    text-align: center;
+}
+}
+
+.thumbnail.square-height.col-sm-2 {
+    width: 15.8%
 }
