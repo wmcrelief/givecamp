@@ -99,5 +99,5 @@ span.site-description {
 }
 
 .builder-text-column:first-line {
-    border-right: 0;
+    border-left: 0;
 }
