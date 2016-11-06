@@ -198,6 +198,10 @@ img.custom-logo {
     background-position: inherit;
 }
 
+.builder-banner-inner-content a {
+    color: rgba(255,255,255,.9);
+}
+
 .builder-banner-inner-content {
     top: 10%;
     color: rgba(255,255,255,.9);
